@@ -1,11 +1,9 @@
-import { Component } from "react"
-import{Container,Badge,} from 'react-bootstrap'
+import {Component} from "react"
+import{Badge,} from 'react-bootstrap'
 class MyBadge extends Component{
     render(){
         return(
-            <Container>
-                <Badge bg="info">{this.props.title}</Badge>{''}
-            </Container>
+                <Badge pill varient="secondary"> {this.props.title}</Badge>
         )
     }
 }

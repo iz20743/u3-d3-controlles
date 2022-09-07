@@ -6,8 +6,8 @@ class WarningSign extends Component{
             <div>
                 {[
                     'danger',
-                ].map((variant) => (
-                    <Alert key={variant} variant={variant}>
+                ].map((variant,idx) => (
+                    <Alert key={idx} variant={variant}>
                     this page is not protected
                     </Alert>
                 ))}
